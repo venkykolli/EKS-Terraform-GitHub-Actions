@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket         = "venki-kolli-dev-tf-bucket"
     region         = "us-east-1"
-    key            = "eks/terraform.tfstate"
+    key            = "venkatesh"
     dynamodb_table = "Lock-Files"
     encrypt        = true
   }
