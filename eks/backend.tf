@@ -10,7 +10,7 @@ terraform {
     bucket         = "venki-kolli-dev-tf-bucket"
     region         = "us-east-1"
     key            = "venkatesh"
-    dynamodb_table = "venki-terraform"
+    dynamodb_table = "amma-nanna"
     encrypt        = true
   }
 }
