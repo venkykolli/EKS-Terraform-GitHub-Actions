@@ -7,10 +7,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "venki-kolli-dev-tf-bucket"
+    bucket         = "venki-devops-vvaha"
     region         = "us-east-1"
     key            = "venkatesh"
-    dynamodb_table = "amma-nanna"
+    dynamodb_table = "venki-devops-vvaha"
     encrypt        = true
   }
 }
